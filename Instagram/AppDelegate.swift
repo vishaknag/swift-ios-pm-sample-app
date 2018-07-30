@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "video2GIFAppIdvikramnagashokamaywooddrivecaliforniasanbruno"
+            $0.clientKey = "Mastervideo2GIFAppIdvikramnagashokamaywooddrivecaliforniasanbrunoKey"
+            $0.server = "http://video2gif.herokuapp.com/parse"
+        }
+        Parse.initialize(with: configuration)
+        
+        //var serv = ParseServer
         return true
     }
 
