@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD57D4862A53F1AFBC0A0832 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7264278E6694558234227365 /* Pods_Instagram.framework */; };
+		B1704C9721101DD2004ADA19 /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1704C9621101DD2004ADA19 /* NativeAdView.xib */; };
 		D6430EA820CA05BF00655DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6430EA720CA05BF00655DA8 /* AppDelegate.swift */; };
 		D6430EAA20CA05BF00655DA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6430EA920CA05BF00655DA8 /* ViewController.swift */; };
 		D6430EAD20CA05BF00655DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6430EAB20CA05BF00655DA8 /* Main.storyboard */; };
@@ -18,9 +18,6 @@
 		D67AB4A920CA62EA001502B4 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67AB4A820CA62EA001502B4 /* PostViewController.swift */; };
 		D67AB4AB20CA6F5F001502B4 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67AB4AA20CA6F5F001502B4 /* FeedTableViewController.swift */; };
 		D67AB4AD20CA70B4001502B4 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67AB4AC20CA70B4001502B4 /* FeedTableViewCell.swift */; };
-		D67AB4AF20CA7283001502B4 /* insta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D67AB4AE20CA7283001502B4 /* insta.jpg */; };
-		D67AB4B220CA7647001502B4 /* gdd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D67AB4B020CA7647001502B4 /* gdd.jpg */; };
-		D67AB4B320CA7647001502B4 /* gdd.png in Resources */ = {isa = PBXBuildFile; fileRef = D67AB4B120CA7647001502B4 /* gdd.png */; };
 		D6A0AB58210E7AC000236305 /* heart-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A0AB56210E7ABF00236305 /* heart-outline.png */; };
 		D6A0AB59210E7AC000236305 /* heart-black-button-symbol-of-interface-for-social-likes.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A0AB57210E7AC000236305 /* heart-black-button-symbol-of-interface-for-social-likes.png */; };
 		D6A0AB5B210E7BB400236305 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A0AB5A210E7BB400236305 /* chat.png */; };
@@ -40,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		47AA21BEAB164322AF1AD96A /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
-		7264278E6694558234227365 /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1704C9621101DD2004ADA19 /* NativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdView.xib; sourceTree = "<group>"; };
 		CF892E66F1C5E87503CA6848 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		D6430EA420CA05BF00655DA8 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6430EA720CA05BF00655DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,13 +47,10 @@
 		D6430EB120CA05BF00655DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6430EB320CA05BF00655DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6430ED720CA424500655DA8 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
-		D66CC3BE20E0A86800D97E4F /* ProfileCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileCollectionViewController.swift; path = "/Users/vikramnagashoka/Documents/iOS development/Instagram/Instagram/ProfileCollectionViewController.swift"; sourceTree = "<absolute>"; };
+		D66CC3BE20E0A86800D97E4F /* ProfileCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewController.swift; sourceTree = "<group>"; };
 		D67AB4A820CA62EA001502B4 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		D67AB4AA20CA6F5F001502B4 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		D67AB4AC20CA70B4001502B4 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
-		D67AB4AE20CA7283001502B4 /* insta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = insta.jpg; path = ../../../insta.jpg; sourceTree = "<group>"; };
-		D67AB4B020CA7647001502B4 /* gdd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gdd.jpg; path = ../../../gdd.jpg; sourceTree = "<group>"; };
-		D67AB4B120CA7647001502B4 /* gdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gdd.png; path = ../../../gdd.png; sourceTree = "<group>"; };
 		D6A0AB56210E7ABF00236305 /* heart-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-outline.png"; sourceTree = "<group>"; };
 		D6A0AB57210E7AC000236305 /* heart-black-button-symbol-of-interface-for-social-likes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart-black-button-symbol-of-interface-for-social-likes.png"; sourceTree = "<group>"; };
 		D6A0AB5A210E7BB400236305 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
@@ -72,7 +66,6 @@
 		D6A0AB71210E91C900236305 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D6A0AB73210E959500236305 /* NativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdView.swift; sourceTree = "<group>"; };
 		D6A0AB78210E985F00236305 /* AdsNativeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdsNativeSDK.framework; sourceTree = "<group>"; };
-		D6A0AB7A210E9A8D00236305 /* Instagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagram-Bridging-Header.h"; sourceTree = "<group>"; };
 		D6F9366E20DF0AB100A7A626 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +81,6 @@
 				D6A0AB68210E919F00236305 /* SystemConfiguration.framework in Frameworks */,
 				D6A0AB66210E919900236305 /* Foundation.framework in Frameworks */,
 				D6A0AB64210E918D00236305 /* UIKit.framework in Frameworks */,
-				CD57D4862A53F1AFBC0A0832 /* Pods_Instagram.framework in Frameworks */,
 				D6A0AB79210E986000236305 /* AdsNativeSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +91,7 @@
 		419DFB642FF40213A79BF9D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D6A0AB78210E985F00236305 /* AdsNativeSDK.framework */,
 				D6A0AB71210E91C900236305 /* StoreKit.framework */,
 				D6A0AB6F210E91C400236305 /* AdSupport.framework */,
 				D6A0AB6D210E91BA00236305 /* CoreGraphics.framework */,
@@ -107,7 +100,6 @@
 				D6A0AB67210E919F00236305 /* SystemConfiguration.framework */,
 				D6A0AB65210E919900236305 /* Foundation.framework */,
 				D6A0AB63210E918D00236305 /* UIKit.framework */,
-				7264278E6694558234227365 /* Pods_Instagram.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,7 +116,6 @@
 		D6430E9B20CA05BF00655DA8 = {
 			isa = PBXGroup;
 			children = (
-				D6A0AB78210E985F00236305 /* AdsNativeSDK.framework */,
 				D6430EA620CA05BF00655DA8 /* Instagram */,
 				D6430EA520CA05BF00655DA8 /* Products */,
 				C78D11C150FBC11608C37D6C /* Pods */,
@@ -145,13 +136,11 @@
 			children = (
 				D6430EA720CA05BF00655DA8 /* AppDelegate.swift */,
 				D6430EA920CA05BF00655DA8 /* ViewController.swift */,
-				D6A0AB7A210E9A8D00236305 /* Instagram-Bridging-Header.h */,
 				D6430EAB20CA05BF00655DA8 /* Main.storyboard */,
 				D6A0AB73210E959500236305 /* NativeAdView.swift */,
+				B1704C9621101DD2004ADA19 /* NativeAdView.xib */,
 				D66CC3BE20E0A86800D97E4F /* ProfileCollectionViewController.swift */,
 				D6F9366E20DF0AB100A7A626 /* signUpViewController.swift */,
-				D67AB4B020CA7647001502B4 /* gdd.jpg */,
-				D67AB4B120CA7647001502B4 /* gdd.png */,
 				D6A0AB5E210E7CB700236305 /* comment-white-oval-bubble.png */,
 				D6A0AB5A210E7BB400236305 /* chat.png */,
 				D6A0AB60210E7D2A00236305 /* share.png */,
@@ -159,7 +148,6 @@
 				D6A0AB56210E7ABF00236305 /* heart-outline.png */,
 				D67AB4AC20CA70B4001502B4 /* FeedTableViewCell.swift */,
 				D67AB4AA20CA6F5F001502B4 /* FeedTableViewController.swift */,
-				D67AB4AE20CA7283001502B4 /* insta.jpg */,
 				D67AB4A820CA62EA001502B4 /* PostViewController.swift */,
 				D6430ED720CA424500655DA8 /* UserTableViewController.swift */,
 				D6430EAE20CA05BF00655DA8 /* Assets.xcassets */,
@@ -232,15 +220,13 @@
 			files = (
 				D6430EB220CA05BF00655DA8 /* LaunchScreen.storyboard in Resources */,
 				D6A0AB59210E7AC000236305 /* heart-black-button-symbol-of-interface-for-social-likes.png in Resources */,
+				B1704C9721101DD2004ADA19 /* NativeAdView.xib in Resources */,
 				D6A0AB5B210E7BB400236305 /* chat.png in Resources */,
 				D6A0AB58210E7AC000236305 /* heart-outline.png in Resources */,
 				D6A0AB61210E7D2A00236305 /* share.png in Resources */,
 				D6430EAF20CA05BF00655DA8 /* Assets.xcassets in Resources */,
 				D6430EAD20CA05BF00655DA8 /* Main.storyboard in Resources */,
-				D67AB4B320CA7647001502B4 /* gdd.png in Resources */,
 				D6A0AB5F210E7CB700236305 /* comment-white-oval-bubble.png in Resources */,
-				D67AB4AF20CA7283001502B4 /* insta.jpg in Resources */,
-				D67AB4B220CA7647001502B4 /* gdd.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,12 +429,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				"HEADER_SEARCH_PATHS[arch=*]" = "$(PROJECT-DIR)/Instagram/AdsNativeSDK.framework/Headers";
 				INFOPLIST_FILE = Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vikramnag.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(PROJECT_DIR)/Instagram/Instagram-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +451,7 @@
 				);
 				INFOPLIST_FILE = Instagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vikramnag.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

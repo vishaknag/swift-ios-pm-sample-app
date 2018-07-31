@@ -86,10 +86,8 @@ class FeedTableViewController: UITableViewController, ANTableViewAdPlacerDelegat
         let serverAdPositions = ANServerAdPositions()
         //The defaultRenderingClass can be switched to `ANAdTableViewCellNew` dynamically by specifying it in the AdsNative UI
         
-        self.placer = ANTableViewAdPlacer(tableView: self.tableView, viewController: self, adPositions:serverAdPositions, defaultAdRenderingClass: NativeAdView.self)
-        
+        self.placer = ANTableViewAdPlacer.init(tableView: self.tableView, viewController: self, adPositions:ANServerAdPositions(), defaultAdRenderingClass: NativeAdView.self)
         self.placer.delegate = self
-        
         self.placer.loadAds(forAdUnitID: "ping")
     }
 
